@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FragmentTransaction f1 = getSupportFragmentManager().beginTransaction();
-                Blankfragment ff1 =  new Blankfragment();
-                f1.replace(R.id.fragmentcontainer, ff1);
+                BlankFragment ff1 =  new BlankFragment();
+                f1.replace(R.id.fragment_container, ff1);
                 f1.commit();
             }
         });
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FragmentTransaction f2 = getSupportFragmentManager().beginTransaction();
-                Blankfragment ff2 =  new Blankfragment();
-                f2.replace(R.id.fragmentcontainer, ff2);
+                BlankFragment2 ff2 =  new BlankFragment2();
+                f2.replace(R.id.fragment_container, ff2);
                 f2.commit();
             }
         });
